@@ -3,6 +3,7 @@ package graph;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class AdjacencyListImpl {
 	
@@ -60,7 +61,26 @@ public class AdjacencyListImpl {
 		
 	}
 	
-	
+	public boolean dfs(int source,int destination) {
+		boolean visited[]=new boolean[adj.length];
+		Stack<Integer>stack =new Stack<Integer>();
+		visited[source]=true;
+		stack.push(source);
+		
+		while(!stack.isEmpty()) {
+			int curr=stack.pop();
+			if (curr==destination) return true;
+			for (int neighbor:adj[curr]) {
+				if (visited[neighbor]==false) {
+				  
+				    visited[neighbor]=true;
+				    stack.add(neighbor);
+				    }
+				}
+			}
+		
+		return false;
+	}
 	
 	
 	
