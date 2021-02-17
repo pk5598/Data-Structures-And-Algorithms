@@ -2,15 +2,14 @@ package tree;
 
 public class Tree {
 	Node root;
-	
 	public Tree() {
 		root=null;
 	}
 	
 	public static void main(String[] args) {
 		
-		Tree s=new Tree();
 		
+		Tree s=new Tree();
 		s.root=new Node(2);
 		s.root.left=new Node(1);
 		s.root.right=new Node(3);

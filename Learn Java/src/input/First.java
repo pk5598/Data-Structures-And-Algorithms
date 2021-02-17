@@ -9,6 +9,7 @@ public class First {
 		
 		Scanner scanner =new Scanner(System.in);
 		int a=scanner.nextInt();   // 23\n  cursor stops before \n
+		System.out.println("hello");
 		String b =scanner.nextLine();// nextLine() moves to next line when \n is seen therefore the resultant output
 		System.out.println(a+"----"+b);
 		scanner.close();
