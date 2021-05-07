@@ -3,7 +3,7 @@ package string;
 public class ord {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int[] arr=new int[26];
 		String s="aabbxxrgwweeee";
 		for (int i=0;i<s.length();i++) {

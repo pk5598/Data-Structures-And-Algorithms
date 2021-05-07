@@ -14,7 +14,7 @@ public class zero {
 		
 		int b=scanner.nextInt();
 		System.out.println(b);
-		scanner.nextLine();
+		//scanner.nextLine();
 		String string=scanner.nextLine();
 		System.out.println(string);
 		

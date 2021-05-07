@@ -10,14 +10,10 @@ public class Practise {
 	
 
 	public static void main(String[] args) {
-		TreeMap<Integer, String> employees = new TreeMap<>();
-
-        employees.put(1003, "Rajeev");
-        employees.put(1001, "James");
-        employees.put(1002, "Sachin");
-        employees.put(1001, "Chris");
-
-        System.out.println("Employees map : " + employees);
+	     int max=Integer.MAX_VALUE;
+	     int min=Integer.MIN_VALUE;
+	     
+	     System.out.println(max+" "+min);
 	
 	
 	}

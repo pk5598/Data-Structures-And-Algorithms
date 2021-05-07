@@ -18,7 +18,13 @@ public class MaxHeap {
 		System.out.println(li);
 		//priorty queue doesnt makes the list sorted,it only gives sorted form when we retrieve the data
 		// below is the example 
-		System.out.println(li.remove());
+		System.out.println(li.remove(21));
+		//System.out.println(li.remove());
+		//System.out.println(li.remove());
+		//System.out.println(li.remove());
+		System.out.println(li);
+		
+		
 		System.out.println(li.remove());
 		System.out.println(li.remove());
 		System.out.println(li.remove());
